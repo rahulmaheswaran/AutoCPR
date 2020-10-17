@@ -40,7 +40,7 @@ void stopIfFault()
   Serial.println("\n\n\nDual G2 High Power Motor Shield");
 
 
-  should be uncomment to make the motor work:
+  the following should be uncomment to make the motor work:
   /* 
   md.init();
   md.calibrateCurrentOffsets();
@@ -102,7 +102,7 @@ void loop()
    while (! Serial);
    Serial.println("motor runs!");
  
-  should be uncomment to make the motor work:
+  the following should be uncomment to make the motor work:
  /*
   md.enableDrivers();
   delay(1);  // The drivers require a maximum of 1ms to elapse when brought out of sleep mode
